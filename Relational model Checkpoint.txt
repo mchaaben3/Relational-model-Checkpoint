@@ -1,0 +1,9 @@
+Hotel(Hotel_id,Hotel_name, #Type_ID);
+
+Type(Type_ID,Type_Name);
+
+Room(Room_ID,Floor, #Hotel_id, #Category_id);
+
+Employee(Employee_ID, Employee_Name, Employee_Speciality,#director_ID,#Hotel_ID);
+
+Category(Category_ID,Category_Name, Price, Beds_Numbers);
